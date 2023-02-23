@@ -1,6 +1,6 @@
 # xmlrpc_ddos
 
-#This code is a proof of concept exploit for a Denial of Service vulnerability in WordPress and Drupal XML-RPC endpoints, and should not be used for malicious purposes. Running this code against a live website without permission is illegal and can cause significant harm to the target system and its users.
+This code is a proof of concept exploit for a Denial of Service vulnerability in WordPress and Drupal XML-RPC endpoints, and should not be used for malicious purposes. Running this code against a live website without permission is illegal and can cause significant harm to the target system and its users.
 
 That being said, if you want to experiment with this code on your own local environment for educational purposes, you can follow these steps:
 
